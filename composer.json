@@ -1,0 +1,23 @@
+{
+  "name": "iovzt/gcs-soap-client",
+  "description": "Soap client for GCS",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Iskryzhytskyi Oleksandr",
+      "email": "oleksandr.iskryzhytskyi@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^8.0",
+    "ext-soap": "*",
+    "ext-simplexml": "*",
+    "ext-dom": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "common\\": "src/"
+    }
+  }
+}
